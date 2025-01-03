@@ -5,57 +5,6 @@ body {
     background-color: #f4f4f9;
 }
 
-/* Introduction Section */
-.intro-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: calc(110vh - 50em); /* Adjust height for the navbar */
-    margin-top: 3.5em; /* Add margin to account for navbar height */
-    background-color: #ffffff;
-    padding: 20px;
-}
-
-.intro-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1100px;
-    width: 100%;
-    padding: 20px;
-    background-color: #ffffff;
-}
-
-.intro-image {
-    flex: 1;
-    text-align: center;
-}
-
-.intro-image img {
-    width: 200px;
-    height: 200px;
-    border-radius: 25%; /* Makes the image circular */
-    object-fit: cover;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.intro-text {
-    flex: 2;
-}
-
-.intro-text h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #333333;
-}
-
-.intro-text p {
-    margin-top: 10px;
-    font-size: 16px;
-    color: #666666;
-    line-height: 1.5;
-}
-
 /* Navigation Bar */
 nav {
     background-color: #282828;
@@ -121,6 +70,57 @@ nav {
                 border-top: solid 0.6em #282828;
             }
 
+/* Introduction Section */
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Adjust height for the navbar */
+    margin-top: 3.5em; /* Add margin to account for navbar height */
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.intro-image {
+    flex: 1;
+    text-align: center;
+}
+
+.intro-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%; /* Makes the image circular */
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text {
+    flex: 2;
+}
+
+.intro-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333333;
+}
+
+.intro-text p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.5;
+}
+
 
 /* Expertise Section */
 .expertise-section {
@@ -133,7 +133,6 @@ nav {
     font-size: 2em;
     margin: 0;
     color: #333;
-    width: 800px;
     margin:0 auto;
   }
   
@@ -141,11 +140,9 @@ nav {
     font-size: 1em;
     color: #666;
     margin: 10px 0 20px;
-    width: 900px;
     margin:10px auto 20px;
   }
   
-  /* Carousel container styling */
   .expertise-container {
     display: flex;
     justify-content: center;
